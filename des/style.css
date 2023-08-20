@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
     background-color: #2A732F;
     color: rgb(255, 255, 255);
@@ -9,10 +14,11 @@ body {
 
 main {
     height: 70vh;
-    width: 30vw;
-    margin-left: 500px;
+    width: 95vw;
+    margin-top: 20px;
+    margin: auto;
     display: block;
-    border-radius: 5px;
+    border-radius: 10px;
     box-shadow: 0px 0px 10px black;
     background-image: linear-gradient(to top , #007508, #47BF4F);
     background-position: center;
@@ -21,15 +27,43 @@ main {
 
 
 h1 {
+    font-size: 3.7em;
+    text-align: justify;
     margin-top: 40px;
-    text-align: center;
+    position: relative;
+    top: 190px;
+    left: 76px;
 }
+
+h2 {
+    font-size: .8em;
+    position: relative;
+    top: 194px;
+    left: 81px;
+    text-align: justify;
+}
+
 form {
-    margin-left: 90px;
+    margin: auto;
+    display: block;
+    font-size: 2.2em;
     text-align: center;
+    position: relative;
+    top: 210px;
+    
+    
+    
 }
 
 input {
+    background-color: #ffffff00;
+    border-style: groove;
+    border-color: #0eb319;
+}
+
+.iemail > input {
+    position: justify;
+    right: 10px;
     
 }
 
