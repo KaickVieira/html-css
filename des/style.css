@@ -15,8 +15,9 @@ body {
 main {
     height: 70vh;
     width: 95vw;
-    margin-top: 20px;
+    margin-top: 60px;
     margin: auto;
+
     display: block;
     border-radius: 10px;
     box-shadow: 0px 0px 10px black;
@@ -29,41 +30,93 @@ main {
 h1 {
     font-size: 3.7em;
     text-align: justify;
-    margin-top: 40px;
     position: relative;
-    top: 190px;
-    left: 76px;
+    margin-top: 90px;
+    top: 150px;
+    left: 55px;
+    text-shadow: 0px 0px 10px black;
 }
 
 h2 {
     font-size: .8em;
     position: relative;
-    top: 194px;
-    left: 81px;
+    top: 155px;
+    left: 59px;
     text-align: justify;
 }
 
 form {
     margin: auto;
     display: block;
-    font-size: 2.2em;
-    text-align: center;
+    font-size: 1.7em;
+    text-align: justify;
     position: relative;
-    top: 210px;
+    top: 180px;
+    left: 55px;
     
     
-    
+}
+
+label {
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.493);
 }
 
 input {
-    background-color: #ffffff00;
+    height: 2.8vh;
+    width: 70vw;
+    background-color: white;
+    
     border-style: groove;
     border-color: #0eb319;
+    border-radius: 6px;
 }
 
-.iemail > input {
-    position: justi;
+input::placeholder {
+    color: black;
+}
 
+a {
+    color: black;
+    font-size: .5em; 
+
+}
+
+a:hover {
+    color: blue;
+}
+
+button {
+    height: 5vh;
+    width: 70vw;
     
+    font-size: .8em;
+    background-color: rgba(255, 255, 255, 0.753);
 }
 
+button:hover{
+    
+    background-color: #0eb319;
+}
+
+footer {
+    height: 10vh;
+    background-color: black;
+    margin-top: 80px;
+}
+
+footer > a {
+    padding: 20px;
+    color: white;
+    font-size: 1em;
+    display:inline-block;
+    margin: auto;
+    position: relative;
+    top: 12px;
+    left: 58px;
+}
+
+footer > a:hover {
+    color: gray;
+    transform: scale(1.3);
+    transition: .4s;
+}

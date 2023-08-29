@@ -10,25 +10,39 @@
     <main>
        <h1>Login:</h1>
         <h2>Digite seus dados para fazer login:</h2>
-       <form>
+       <form method="post" autocomplete="on">
             <div>
                 <label for="inome">Nome:</label>
-                <input type="text" name="nome" id="inome" required>
+                <br>
+                <input type="text" name="nome" id="inome" placeholder="Digite seu nome" required autocomplete="off">
             </div>
            
             <div>
                 <label for="iemail">E-mail:</label>
-                <input type="email" name="email" id="iemail" required>
+                <br>
+                <input type="email" name="email" id="iemail" placeholder="Digite um e-mail válido" autocomplete="email" required>
             </div>
            
             <div>
                 <label for="isenha">Senha:</label>
-                <input type="password" name="senha" id="isenha" required>
+                <br>
+                <input type="password" name="senha" id="isenha" placeholder="Digite sua senha" autocomplete="current-password" required> 
             </div>
            
+           <div>
+            <a href="#">Esqueci minha senha</a>
+           </div>
+
             <button type="submit" value="Login" id="botaoLogin">Login
            
         </form>
+        
     </main>
+
+    <footer>
+        <a href="#">Sobre nós</a>
+        <a href="#">Contato</a>
+        <a href="#">Redes sociais</a>
+    </footer>
 </body>
 </html>
