@@ -8,8 +8,130 @@ Desktop: 992px até 1200px
 Grandes telas: acima de 1200px
 */
 
-@media screen and (min-width:768) and (max-width: 992) {
-    main {
-        background-image: url(imagens/pexels-khoa-võ-6404665\ \(1\).jpg);
+
+/*MQ TABLET*/
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    img {
+        display: none;
     }
-}
+    
+    main {
+        width: 50vw;
+    }
+    form {
+        font-size: 1em;
+        
+    }
+    
+    input {
+        width: 40vw;
+    }
+    
+    a {
+        font-size: .8em;
+    }
+    button {
+        width: 40vw;
+    }
+    
+    footer > a {
+        text-align: justify;
+        left: 305px;
+    }
+    }
+    
+    /*MQ DESKTOP*/
+    @media screen and (min-width: 992px) and (max-width: 1200px) {
+    img {
+        height: 70vh;
+        width: 30vw;
+        float: left;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.719);
+        border-radius: 10px 2px 2px 10px;
+    
+        
+    }
+    main {
+        width: 80vw;
+        
+    }    
+    
+    h1 {
+        top: 50px;
+        text-align: justify;
+        left: 50px;
+    }
+    h2{
+        top: 55px;
+        left: 50px;
+    }
+    
+    form {
+        top: 90px;
+        left: 50px;
+    }
+    
+    input{
+        width: 40vw;
+    }
+    
+    a {
+        margin-left: 50px;
+    }
+    
+    button {
+        width: 30vw;
+        margin-left: 50px;
+        
+    }
+    
+    footer > a {
+        left: 440px;
+    }
+    }
+
+    @media screen and (min-width: 1200px) {
+    img {
+        height: 70vh;
+        width: 30vw;
+        float: left;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.719);
+        border-radius: 10px 2px 2px 10px;
+    }
+
+    main {
+        width: 75vw;
+    }
+    
+    h1 {
+        top: 60px;
+    }
+
+    h2 {
+        top: 65px;
+    }
+
+    form {
+        top: 90px;
+    }
+
+    input {
+        width: 35vw;
+       
+        
+    }
+
+    button {
+        width: 15vw;
+        margin-top: 20px;
+        margin-left: 120px;
+    }
+
+    footer {
+        height: 9.5vh;
+    }
+    footer > a {
+        left: 460px;
+    }
+    }
