@@ -9,38 +9,39 @@
 </head>
 <body>
     <main>
-        <div>
-            <img src="imagens/foto2.jpg" alt="" id="foto">
-        </div>  
-        <h1>Login:</h1>
-        <h2>Digite seus dados para fazer login:</h2>
-       <form method="post" autocomplete="on">
+        <section id="login">
             <div>
-                <label for="inome">Nome:</label>
-                <br>
-                <input type="text" name="nome" id="inome" placeholder="Digite seu nome" required autocomplete="off">
+                <img src="imagens/foto2.jpg" alt="" id="foto">
             </div>
-           
-            <div>
-                <label for="iemail">E-mail:</label>
-                <br>
-                <input type="email" name="email" id="iemail" placeholder="Digite um e-mail válido" autocomplete="email" required>
-            </div>
-           
-            <div>
-                <label for="isenha">Senha:</label>
-                <br>
-                <input type="password" name="senha" id="isenha" placeholder="Digite sua senha" autocomplete="current-password" required> 
-            </div>
-           
-           <div>
-            <a href="#">Esqueci minha senha</a>
-           </div>
-
-            <button type="submit" value="Login" id="botaoLogin">Login
-           
-                
-        </form>    
+            <h1>Login:</h1>
+            <h2>Digite seus dados para fazer login:</h2>
+                   <form method="post" autocomplete="on">
+                <div>
+                    <label for="inome">Nome:</label>
+                    <br>
+                    <input type="text" name="nome" id="inome" placeholder="Digite seu nome" required autocomplete="off">
+                </div>
+            
+                <div>
+                    <label for="iemail">E-mail:</label>
+                    <br>
+                    <input type="email" name="email" id="iemail" placeholder="Digite um e-mail válido" autocomplete="email" required>
+                </div>
+            
+                <div>
+                    <label for="isenha">Senha:</label>
+                    <br>
+                    <input type="password" name="senha" id="isenha" placeholder="Digite sua senha" autocomplete="current-password" required>
+                </div>
+            
+               <div>
+                <a href="#">Esqueci minha senha</a>
+               </div>
+                <button type="submit" value="Login" id="botaoLogin">Login
+            
+            
+            </form>
+        </section>
     </main>
     <footer>
         <a href="#">Sobre nós</a>

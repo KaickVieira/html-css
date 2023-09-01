@@ -91,6 +91,10 @@ Grandes telas: acima de 1200px
     }
     }
 
+
+    /*TELAS GRANDES*/
+
+
     @media screen and (min-width: 1200px) {
     img {
         height: 70vh;
@@ -102,22 +106,26 @@ Grandes telas: acima de 1200px
 
     main {
         width: 75vw;
+        margin-left: 215px;
     }
     
     h1 {
         top: 60px;
+        left: 100px;
     }
 
     h2 {
         top: 65px;
+        left: 100px;
     }
 
     form {
         top: 90px;
+        left: 160px;
     }
 
     input {
-        width: 35vw;
+        width: 25vw;
        
         
     }
@@ -125,13 +133,16 @@ Grandes telas: acima de 1200px
     button {
         width: 15vw;
         margin-top: 20px;
-        margin-left: 120px;
+        margin-left: 103px;
     }
 
     footer {
-        height: 9.5vh;
+        height: 11.9vh;
+        margin-bottom: 0px;
     }
+
     footer > a {
-        left: 460px;
+        top: 10px;
+        left: 690px;
     }
     }
